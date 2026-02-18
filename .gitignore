@@ -8,3 +8,42 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> IDE & Editor ###
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+###< IDE & Editor ###
+
+###> OS ###
+Thumbs.db
+.AppleDouble
+.LSOverride
+###< OS ###
+
+###> Logs ###
+*.log
+###< Logs ###
+
+###> Node (if used) ###
+/node_modules/
+npm-debug.log
+yarn-error.log
+###< Node (if used) ###
+
+###> Testing ###
+/coverage/
+.phpunit.result.cache
+###< Testing ###
+
+###> Docker ###
+docker-compose.override.yml
+###< Docker ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
